@@ -6,10 +6,10 @@ My .bashrc for customizing the [Bash] Unix shell.
 
 **Using [Git]:** Clone DGBash from this Github repository to the folder `~/.bash/DGBash` and create a symlink from `~/.bashrc` to the .bashrc
 
-    $ git clone https://github.com/dgund/DGBash.git ~/.vim/DGBash
+    $ git clone https://github.com/dgund/DGBash.git ~/.bash/DGBash
     $ ln -s ~/.bash/DGBash/.bashrc ~/.bashrc
     
-**Manually:** Download the source as a ZIP and move the contained files to a new folder `~/.vim/DGBash` and create a symlink to the .bashrc
+**Manually:** Download the source as a ZIP and move the contained files to a new folder `~/.bash/DGBash` and create a symlink to the .bashrc
 
     $ ln -s ~/.bash/DGBash/.bashrc ~/.bashrc
 **Manually without symlink:** Download the source as a ZIP and move the contained .bashrc to `~/.bashrc`
