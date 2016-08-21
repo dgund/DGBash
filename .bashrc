@@ -24,6 +24,9 @@
 ################################################################################
 # (1) General
 ################################################################################
+# If not running interactively, no need for setup
+[[ $- != *i* ]] && return
+
 # Source global definitions from /etc/bashrc if present
 if [ -f /etc/bashrc ]; then
     . /etc/bashrc
