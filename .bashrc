@@ -141,7 +141,7 @@ PS1="[\u@\h:\w]> "
 alias la='ls -A'
 
 # List contributors to a git branch, ordered by number of commits
-alias gitContributors ='git shortlog -n -s -e'
+alias gitContributors='git shortlog -n -s -e'
 
 
 ################################################################################
